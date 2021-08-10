@@ -64,7 +64,7 @@ If the user wants to customize the word list, they will set this to the service
 
 [[[ code('2a35b342c9') ]]]
 
-So, in the extension class, if the that value is *not* set to null, let's *replace*
+So, in the extension class, if that value is *not* set to null, let's *replace*
 the first argument entirely: `$definition->setArgument()` with 0 and
 `$config['word_provider']`.
 
