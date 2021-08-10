@@ -47,7 +47,7 @@ like the router, session, etc. It *also* requires the `http-kernel` component,
 
 Requiring FrameworkBundle is *not* a horrible thing. But, it's *technically*
 possible to use the Symfony framework *without* the FrameworkBundle, and some
-people *do* do this.
+people *do* this.
 
 So we're going to take the *tougher*, more interesting road and *not* simply
 require that bundle. Instead, let's look at the actual components our code uses.
